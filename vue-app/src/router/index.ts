@@ -29,7 +29,7 @@ const CartView = () => import('@/views/CartView.vue')
 const TransactionSuccess = () => import('@/views/TransactionSuccess.vue')
 const Leaderboard = () => import('@/views/Leaderboard.vue')
 const LeaderboardProject = () => import('@/views/LeaderboardProject.vue')
-
+const BeamerBridge = () => import('@/views/BeamerBridge.vue')
 // TODO: create a new route that takes funding factory address as a param
 const routes: Array<RouteRecordRaw> = [
   {
@@ -229,6 +229,14 @@ const routes: Array<RouteRecordRaw> = [
     component: TransactionSuccess,
     meta: {
       title: 'Transaction Success',
+    },
+  },
+  {
+    path: '/beamer-bridge',
+    name: 'beamer-bridge',
+    component: BeamerBridge,
+    meta: {
+      title: 'Bridge with Beamer',
     },
   },
 ]

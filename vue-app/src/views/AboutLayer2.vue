@@ -94,6 +94,11 @@
             {{ $t('layer2.arbitrum.funds.button', { chain: chain.label }) }}
           </button>
         </links>
+        <links :to="{ name: 'beamer-bridge' }" :hideArrow="true">
+          <button class="btn-action">
+            {{ $t('layer2.arbitrum.funds.button_3rd') }}
+          </button>
+        </links>
       </p>
       <p>
         {{ $t('layer2.arbitrum.funds.p1_t1') }}

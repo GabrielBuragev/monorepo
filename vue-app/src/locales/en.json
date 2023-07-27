@@ -256,7 +256,8 @@
         "p2_t1": "Once you have bridged your {nativeTokenSymbol} to {chain}, you may want to add the ",
         "p2_link": "token",
         "p2_t2": "to your wallet e.g. in MetaMask.",
-        "button_2nd": "Add {chain} {nativeTokenSymbol} to MetaMask"
+        "button_2nd": "Add {chain} {nativeTokenSymbol} to MetaMask",
+        "button_3rd": "Beamer Bridge"
       }
     },
     "not_arbitrum": {
@@ -265,6 +266,9 @@
       "li2": "Funds on {chain}",
       "h2": "💰 Bridge your funds to {chain}",
       "cta": "{chain} Bridge"
+    },
+    "beamer_bridge": {
+      "link": "Go back"
     }
   },
   "maci": {
